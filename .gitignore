@@ -1,0 +1,8 @@
+*.aux
+*.log
+*.gz
+root.toc
+root.pdf
+sorted_reference.tex
+root.blg
+root.bbl
