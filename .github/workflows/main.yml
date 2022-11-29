@@ -13,7 +13,7 @@ jobs:
       - name: Set up Git repository
         uses: actions/checkout@v2
       - name: Build docker image
-        uses: {Githubのアカウント名}/{リポジトリ名}/.github/actions/latex@master
+        uses: harutiro/Study_Latex/.github/actions/latex@master
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
       - name: Upload artifact
